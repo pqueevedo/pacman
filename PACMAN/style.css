@@ -1,0 +1,93 @@
+.grid{
+    width: 560px;
+    height: 560px;
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    margin-top: 3%;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+
+/*CASELLES*/
+.puntets{
+    background-color: rgb(148, 196, 75);
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.muro{ 
+    background-color: rgb(254, 85, 172);
+}
+
+.poder{
+    background-color: rgb(0, 85, 255);
+    border-radius: 10px;
+}
+
+
+/*PACMAN*/
+.pac-man{
+    content: url("./img/PACMAN.png") ;
+}
+
+
+/*FANTASMES*/
+.pepe{
+    content: url("./img/VERD.jpg");
+    border: none;
+}
+
+.pepa{
+    content: url("./img/AZUL.jpg");
+    border: none;
+}
+
+.paco{
+    content: url("./img/ROJO.jpg");
+    border: none;
+}
+
+.paca{
+    content: url("./img/AMARILLO.png");
+    border: none;
+}
+
+.kibili{
+    content: url("./img/NARANJA.jpg");
+    border: none;
+}
+
+/*FANTASMA ASUSTAT*/
+.fasustado{
+    content: url("./img/kibili.png");
+    border: none;
+}
+
+/*REINICIAR*/
+#boto{
+    color: #FDFDFD;
+    background-color: rgb(148, 196, 75);
+    border: 0;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+
+    margin-left: 45%;
+}
+
+#boto:hover{
+    cursor: pointer;
+    background-color: rgb(254, 85, 172);
+}
+
+.h3{
+    margin-left: 47%;
+}

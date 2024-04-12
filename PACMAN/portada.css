@@ -1,0 +1,42 @@
+html, body{
+    margin : 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #59e6ff;
+    margin-top: 6%;
+    align-content: center;
+    user-select: none;
+    text-align: center;
+}
+
+img{  /*tamany foto*/
+    width: 500px;
+    margin: 0 auto;   
+    margin-bottom: 5%;
+    margin-top: -10%;
+}
+
+.container{  /*centrar foto*/
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 30px auto;
+    
+}
+
+a{  /*botó JUGAR*/
+    color: #FDFDFD;
+    background-color: rgb(255, 18, 89);
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+a:hover{ /*botó JUGAR*/
+    cursor: pointer;
+    background-color: #8c8183;
+}
